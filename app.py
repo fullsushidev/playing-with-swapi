@@ -40,4 +40,5 @@ people_info = get_people_info(None)
 items = 0
 print_people_info(people_info, items)
 
-print(final_results_set[0])
+for result in final_results_set:
+    print('\n', result['name'])
